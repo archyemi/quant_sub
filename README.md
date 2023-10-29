@@ -12,16 +12,17 @@ create a profile with this details in the "~/.aws/credentials" directory of the 
 Step 2
 Create a folder called submission
 Navigate into submission folder:
-Git clone the repository (https://github.com/)
+Git clone the repository (https://github.com/archyemi/quant_sub.git)
 Up variables in the variables.tf as needed and save the file
-Run "terraform init"
+Run "terraform init" to initialize the directory
 Run "terraform plan"
 Validate the resources to be created
 Run "terraform apply" 
 enter "yes"
 
 Step 3
-
+copy the url of the external-facing loadbalancer
+Paste the url in any browser to view the application
 
 Step 4
 Run "terraform destroy" to clean up resources
